@@ -1,0 +1,37 @@
+$boder: 1px solid rgba(128, 128, 128, 0.144);
+$color-footer: rgba(0, 0, 0, 0.54);
+$font-size: 15px;
+
+.footer__container {
+  align-self: end;
+  display: grid;
+  grid-template-rows: 40px 40px;
+  background-color: rgb(242, 242, 242);
+  border: $boder;
+  color: $color-footer;
+  font-size: $font-size;
+  &-country {
+    align-self: center;
+    padding-left: 27px;
+  }
+
+  &-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    padding-left: 10px;
+    border-top: $boder;
+  }
+  .privacy {
+    justify-self: end;
+    padding-right: 27px;
+  }
+  a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}

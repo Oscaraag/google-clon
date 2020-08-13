@@ -1,0 +1,23 @@
+{
+  "name": "google-clone",
+  "version": "1.0.0",
+  "description": "HTML &amp; CSS Practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oscaraag/google-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oscaraag/google-clone/issues"
+  },
+  "homepage": "https://github.com/Oscaraag/google-clone#readme",
+  "dependencies": {
+    "sass": "^1.26.10"
+  }
+}
