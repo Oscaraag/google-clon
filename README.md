@@ -1,2 +1,2 @@
-# google-clon
+# google-clone
 HTML &amp; CSS Practice 
